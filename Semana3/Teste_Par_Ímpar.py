@@ -1,4 +1,4 @@
-#Este código recebe um número intero e imprime se é par ou ímpar
+#Este código recebe um número intero e imprime se este número é par ou ímpar.
 
 
 a = int(input("Digite um número inteiro: "))

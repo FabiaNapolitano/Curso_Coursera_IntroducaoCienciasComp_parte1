@@ -1,10 +1,10 @@
 # O código abaixo verifica se o número informado pelo usuário é triangular
-# lembrando que um número triangular é o produto de 3 numeros inteiros
+# lembrando que um número triangular é o produto de 3 números inteiros.
 # EX: 4 * 5 * 6 = 120 então 120 é um número triangular.
 # Para escrever o código é usada a fórmula triangular que diz :
-# um número x é triangular, se e somente se 8*x +1 for umx+ quadrado. De modo)
-# equivalente, se a raiz triangular positiva n = Raiz²(8x+1)-1/2 for um número
-#inteiro.
+# um número x é triangular, se e somente se, n = 8*x +1 for um quadrado. De modo
+# equivalente, se a raiz triangular positiva n = (Raiz²(8x+1)-1)/2 for um número
+# inteiro.
 
 import math
 x = int(input("Digite um número triangular: "))
