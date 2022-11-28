@@ -21,15 +21,13 @@ for i in n[contador]:
         lista_Aux.append(i)    
         contador += 1
         
-        if (i == " " or i == "," or i == "." or i == "-" or i == "/"):        
+        if (i == " " ):        
             del lista_Aux[contador -1]
             contador -= 1          
             x = i    
             
         else:      
-            if (x == "," or x == "." or x == "-" or x == "/") :
-                x = " "
-                
+               
             if (x != " " and i != " " ):            
                 del lista_Aux[contador -1]            
                 contador -= 1
